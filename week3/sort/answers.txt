@@ -1,0 +1,13 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Sort1 and Sort3 had approximately the same runtime when sorting unsorted numbers. However, Sort1 had a noticeably lower runtime when the numbers were already sorted. This behavior aligns with the best-case time complexity of Bubble Sort, which is Ω(n)—indicating that it performs more efficiently when the input is already sorted.
+
+sort2 uses: Merge Sort
+
+How do you know?: Sort2 consistently had the fastest runtime among all three sorting algorithms, regardless of whether the input was sorted or unsorted. This behavior aligns with Merge Sort’s efficient time complexity of O(n log n) in all cases.
+
+sort3 uses: Selection Sort
+
+How do you know?: Sort3 had a runtime almost identical to Sort1 when sorting unsorted numbers. However, unlike Sort1, its runtime did not improve when the input was already sorted. This is consistent with Selection Sort, which has a time complexity of Θ(n²) in both the best and worst cases, since it always performs the same number of comparisons regardless of input order.
+
+
